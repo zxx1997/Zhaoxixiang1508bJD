@@ -46,6 +46,7 @@ public class GetOrderAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolde
             viewHolder.status.setText("已支付");
         }else if(bean.getStatus()==2){
             viewHolder.status.setText("已取消");
+
         }
 
         viewHolder.status.setOnClickListener(new View.OnClickListener() {
